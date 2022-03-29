@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "poppins", sans-serif;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: #5a5a5a;
+}
+
+img {
+  cursor: pointer;
+}
+
+/* ================navigation section================ */
+.d-flex {
+  display: flex;
+  align-items: center;
+}
+
+nav {
+  position: sticky;
+  top: 0;
+  justify-content: space-between;
+  padding: 10px 2%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  background-color: white;
+  z-index: 15px;
+}
+
+nav i {
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.nav-left > * {
+  margin-right: 20px;
+}
+
+.nav-left .logo {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.nav-left .logo i {
+  color: red;
+}
+
+.nav-middle .search-box {
+  border: 1px solid #ddd;
+  padding: 10px 20px;
+  border-radius: 20px;
+  margin-right: 20px;
+  width: 400px;
+}
+
+.nav-middle .search-box input {
+  width: 95%;
+  padding-right: 10px;
+  font-size: 16px;
+  border: none;
+  outline: none;
+}
+
+.nav-middle .search-box .search-icon {
+  width: 5%;
+  font-size: 18px;
+  color: #5a5a5a;
+}
+
+.nav-middle .voice-icon {
+  height: 35px;
+  width: 35px;
+  line-height: 35px;
+  text-align: center;
+  background-color: rgba(240, 234, 234, 0.699);
+  border-radius: 50%;
+}
+
+.nav-right .channel-logo {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  margin-right: 0;
+  object-fit: cover;
+}
+
+.nav-right > * {
+  margin-right: 20px;
+}
